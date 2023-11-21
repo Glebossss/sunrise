@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/sunrise/static/css/main.5a1b97c2.css",
+    "main.js": "/sunrise/static/js/main.62e7f3f9.js",
+    "static/media/Video.jpg": "/sunrise/static/media/Video.45f6092ad0a848521557.jpg",
+    "static/media/steam icon.svg": "/sunrise/static/media/steam icon.906cbf40f6ab2cf21bb09aea0dd38305.svg",
+    "static/media/banner.jpg": "/sunrise/static/media/banner.8e75db7d98c29a0b276c.jpg",
+    "static/media/Schedule.jpg": "/sunrise/static/media/Schedule.6e3f85b5fe124038cf53.jpg",
+    "static/media/image 3.jpg": "/sunrise/static/media/image 3.4043e8e7c251581340bf.jpg",
+    "static/media/pic1.jpg": "/sunrise/static/media/pic1.63d7b7635e96015bbe04.jpg",
+    "static/media/image 2.jpg": "/sunrise/static/media/image 2.0c410a7d808b4ec1a407.jpg",
+    "static/media/telegram icon.svg": "/sunrise/static/media/telegram icon.b3fd55893abcd21b74d06aeb40cfb31e.svg",
+    "static/media/image 1.jpg": "/sunrise/static/media/image 1.b347b015d9c36116c300.jpg",
+    "static/media/Rubik.ttf": "/sunrise/static/media/Rubik.82de449cb37c7d97aa8a.ttf",
+    "static/media/person1.jpg": "/sunrise/static/media/person1.e128df131a8ad850fe0d.jpg",
+    "static/media/Rubik-Bold.ttf": "/sunrise/static/media/Rubik-Bold.c934eb22c2c69992b34c.ttf",
+    "static/media/Rubik-SemiBold.ttf": "/sunrise/static/media/Rubik-SemiBold.869208702057daef053d.ttf",
+    "static/media/Rubik-Regular.ttf": "/sunrise/static/media/Rubik-Regular.55fa11cdc8b9a3ee842f.ttf",
+    "static/media/pic2.jpg": "/sunrise/static/media/pic2.2d1e63888680d0eac7ab.jpg",
+    "static/media/person6.jpg": "/sunrise/static/media/person6.ea1d44dafa7979c3795a.jpg",
+    "static/media/pic3.jpg": "/sunrise/static/media/pic3.7d1bb9a021395b43dce0.jpg",
+    "static/media/person3.jpg": "/sunrise/static/media/person3.3cc078d0a619ceef34c9.jpg",
+    "static/media/person5.jpg": "/sunrise/static/media/person5.5918dc2e86f79a417694.jpg",
+    "static/media/person4.jpg": "/sunrise/static/media/person4.2a41ede172fd501785bd.jpg",
+    "static/media/person2.jpg": "/sunrise/static/media/person2.4251b9a40396b84b1081.jpg",
+    "static/media/discord icon.svg": "/sunrise/static/media/discord icon.cf15214efc16ea61cc41ea0e901ce647.svg",
+    "static/media/VK icon.svg": "/sunrise/static/media/VK icon.4cb6e371fd311ed7ef804ec6c28c80c1.svg",
+    "static/media/yourube icon.svg": "/sunrise/static/media/yourube icon.afb7b605a34518c25f8f3898f8486d62.svg",
+    "index.html": "/sunrise/index.html",
+    "static/media/Arrow.svg": "/sunrise/static/media/Arrow.d5dcb85fa3955fc76c9fc0995c3ac073.svg",
+    "static/media/arrow.svg": "/sunrise/static/media/arrow.9d8c10fc89af85fd8c4b6c0945b02b61.svg",
+    "static/media/close.svg": "/sunrise/static/media/close.b4349b7cfabf07dc125a1d6f167e8274.svg",
+    "main.5a1b97c2.css.map": "/sunrise/static/css/main.5a1b97c2.css.map",
+    "main.62e7f3f9.js.map": "/sunrise/static/js/main.62e7f3f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a1b97c2.css",
+    "static/js/main.62e7f3f9.js"
+  ]
+}
