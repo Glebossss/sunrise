@@ -18,7 +18,7 @@ function App() {
       <div className='App'>
         <Routes>
           <Route
-            path='/'
+            path='/sunrise/'
             element={<MainLayout />}
           >
             <Route
