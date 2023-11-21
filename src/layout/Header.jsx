@@ -53,7 +53,7 @@ function Header() {
         </NavLink>
         <NavLink
           className={styles.icon}
-          to='account'
+          to='login'
         >
           <img src={account}></img>
         </NavLink>

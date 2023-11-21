@@ -11,6 +11,7 @@ import Events from "./Components/Events"
 import Documents from "./Components/Documents"
 import Contacts from "./Components/Contacts"
 import Account from "./Components/Account"
+import Login from "./Components/Login"
 
 function App() {
   return (
@@ -50,6 +51,10 @@ function App() {
               element={<Contacts />}
             ></Route>
           </Route>
+          <Route
+              path='/sunrise/login'
+              element={<Login />}
+            ></Route>
           <Route
               path='/sunrise/account'
               element={<Account />}

@@ -49,21 +49,53 @@
         .main {
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: flex-start;
             justify-content: space-between;
             width: 100%;
-            margin-top: 15%;
+            margin-top: 10%;
+
+            h5 {
+                color: rgba(255, 255, 255, 0.50);
+                font-family: "Rubik";
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-transform: uppercase;
+                margin: 0%;
+            }
+
+            h3 {
+                color: #FFF;
+                font-family: "Rubik";
+                font-size: 45px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+
+            p {
+                color: rgba(255, 255, 255, 0.50);
+                font-family: "Rubik";
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                margin: 0%;
+            }
+
+            a {
+                color: #D6B9FC;
+                font-family: "Rubik";
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: normal;
+                text-decoration: none;
+            }
 
             form {
                 width: 100%;
-
-                .name {
-                    display: flex;
-                    flex-direction: row;
-                    align-items: center;
-                    justify-content: space-between;
-                    width: 100%;
-                }
 
                 .block {
                     display: flex;
@@ -103,41 +135,7 @@
                         line-height: normal;
                     }
                 }
-
-                .check {
-                    display: flex;
-                    flex-direction: row;
-                    align-items: center;
-                    justify-content: center;
-                    width: 80%;
-                    margin-top: 4%;
-                    margin-bottom: 2%;
-
-                    label {
-                        color: #FFF;
-                        font-family: "Rubik";
-                        font-size: 24px;
-                        font-style: normal;
-                        font-weight: 300;
-                        line-height: normal;
-
-                        span {
-                            color: #FFAA50;
-                            font-family: "Rubik";
-                            font-size: 24px;
-                            font-style: normal;
-                            font-weight: 300;
-                            line-height: normal;
-                        }
-                    }
-
-                    input {
-                        border-radius: 5px;
-                        border: 1px solid #D6B9FC;
-                    }
-                }
             }
-
             button {
                 color: #FFF;
                 font-family: "Rubik";
@@ -166,6 +164,13 @@
 
                 p {
                     margin: 0%;
+                    color: #FFF;
+                    font-family: 'Rubik';
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    text-transform: uppercase;
                 }
 
                 img {
