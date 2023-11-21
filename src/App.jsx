@@ -49,11 +49,11 @@ function App() {
               path='contacts'
               element={<Contacts />}
             ></Route>
-            <Route
-              path='account'
+          </Route>
+          <Route
+              path='/sunrise/account'
               element={<Account />}
             ></Route>
-          </Route>
         </Routes>
       </div>
     </BrowserRouter>
