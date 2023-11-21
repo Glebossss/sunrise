@@ -4,6 +4,9 @@ import Event from "./Event"
 
 import events from "../data/Events"
 
+import train from "../Images/events/train 1.svg"
+import tram from "../Images/events/Tram.svg"
+import trolleybus from "../Images/events/trolleybus 1.svg"
 import schedule from "../Images/events/Schedule.jpg"
 import lines from "../Images/bgLines.png"
 
@@ -29,9 +32,28 @@ function Events() {
         activity === 2 ? (styles.active2) : (styles.inActive)} onClick={() => setActivity(2)}>Троллейбус</p>
     </div>
     <div className={styles.block}>
-      {events.map((event) => {
+      {activity === 0 && events.map((event) => {
         return (
-          <Event {...event} key={event.id} />
+          <>
+            <Event {...event} key={event.id} />
+            <img src={train} className={styles.transport}/>
+          </>
+        )
+      })}
+      {activity === 1 && events.map((event) => {
+        return (
+          <>
+            <Event {...event} key={event.id} />
+            <img src={tram} className={styles.transport}/>
+          </>
+        )
+      })}
+      {activity === 2 && events.map((event) => {
+        return (
+          <>
+            <Event {...event} key={event.id} />
+            <img src={trolleybus} className={styles.transport}/>
+          </>
         )
       })}
     </div>
