@@ -1,10 +1,17 @@
 import { useState } from "react"
+
 import styles from "../styles/Documents.module.scss"
+
+import lines from "../Images/bgLines.png"
 
 function Documents() {
   const [activity, setActivity] = useState(0)
 
   return <div className={styles.documents}>
+    <img
+        src={lines}
+        className={styles.line}
+      />
     <h1>Документы</h1>
     <div className={styles.tabs}>
       <p className={

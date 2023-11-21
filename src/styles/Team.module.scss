@@ -23,4 +23,16 @@
     justify-content: space-between;
     width: 100%;
   }
+
+  .line {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -10;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+  }
 }

@@ -5,12 +5,19 @@ import Event from "./Event"
 import events from "../data/Events"
 
 import schedule from "../Images/events/Schedule.jpg"
+import lines from "../Images/bgLines.png"
+
 import { useState } from "react"
 
 function Events() {
   const [activity, setActivity] = useState(0)
 
-  return <div className={styles.events}>
+  return (
+  <div className={styles.events}>
+    <img
+        src={lines}
+        className={styles.line}
+    />
     <h1>Мероприятия</h1>
     <div className={styles.tabs}>
       <p className={
@@ -31,6 +38,7 @@ function Events() {
     <h1>Расписание</h1>
     <img src={schedule} />
   </div>
+  )
 }
 
 export default Events
