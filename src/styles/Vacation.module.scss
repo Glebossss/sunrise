@@ -1,0 +1,223 @@
+.vacation {
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 10px;
+  background: rgba(214, 185, 252, 0.5);
+  padding: 5%;
+  margin-top: 5%;
+  position: relative;
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    h5 {
+      color: #eaeaea;
+      font-family: "Rubik";
+      font-size: 29px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin: 0%;
+    }
+
+    p {
+      color: #eaeaea;
+      font-family: "Rubik";
+      font-size: 29px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+    }
+
+    .extra {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+    }
+
+    .extra p, .extra span {
+      color: rgba(234, 234, 234, 0.8);
+      font-family: "Rubik";
+      font-size: 29px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      margin: 0%;
+    }
+
+    .extra span:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    .extra img {
+        margin: 0%;
+        padding-left: 5%;
+    }
+
+    .description {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start !important;
+    }
+
+    .description p {
+      margin-top: 5%;
+      color: #eaeaea;
+      font-family: "Rubik";
+      font-size: 29px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+    }
+
+    .info {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 15%;
+      margin-top: 3%;
+  }
+  }
+
+  button {
+    border: 4px solid #ffaa50;
+    background: none;
+    padding: 1%;
+    color: #eaeaea;
+    font-family: "Rubik";
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  button:hover {
+    background: rgba(255, 170, 80, 0.50);
+  }
+}
+
+.inActive {
+  display: none;
+}
+
+.popup {
+  position: fixed;
+  width: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #EAEAEA;
+  border-radius: 10px;
+  z-index: 10;
+  margin-top: 3%;
+  margin-bottom: 3%;
+
+  img {
+    position: absolute;
+    right: 5%;
+    top: 4%;
+  }
+
+  h1 {
+    background-color: #FFAA50;
+    margin: 0%;
+    padding: 5% 5% 10% 5%;
+    color: #EAEAEA;
+    font-family: "Rubik";
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    width: 100%;
+
+    p{
+      color: #101010;
+      font-family: "Rubik";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+    }
+  }
+
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .element {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+    }
+
+    label{
+      color: #101010;
+      font-family: "Rubik";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      margin: 1%;
+    }
+
+    input {
+      border-radius: 10px;
+      border: 5px solid #FFAA50;
+      width: 70%;
+      height: 82px;
+      color: rgba(16, 16, 16, 0.50);
+      font-family: "Rubik";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      padding-left: 5%;
+    }
+
+    button {
+      background: #FFAA50;
+      color: #EAEAEA;
+      font-family: "Rubik";
+      font-size: 29px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      padding: 5%;
+      margin-top: 5%;
+    }
+
+    .bottom {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+
+      input {
+        width: 29px;
+        height: 30px;
+        border-radius: 5px;
+        border: 1px solid #101010;
+      }
+    }
+  }
+}

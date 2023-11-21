@@ -1,0 +1,108 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  .one {
+    background-image: url("../Images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    width: 100%;
+    height: 766px;
+    margin-top: -10%;
+    z-index: -10;
+  }
+
+  .two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 67%;
+
+    img {
+      position: absolute;
+      left: 0px;
+      z-index: -10;
+      transform: rotate(180deg);
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+    }
+
+    h2 {
+      color: #eaeaea;
+      text-align: center;
+      font-family: "Rubik";
+      font-size: 58px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+
+    p {
+      color: #eaeaea;
+      text-align: center;
+      font-family: "Rubik";
+      font-size: 29px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+    }
+  }
+
+  .three {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 67%;
+    margin: auto;
+    padding-top: 3%;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .column h3 {
+    color: #eaeaea;
+    font-family: "Rubik";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0%;
+  }
+
+  .column p {
+    color: #eaeaea;
+    font-family: "Rubik";
+    font-size: 29px;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  .four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 67%;
+    margin: auto;
+    padding-top: 3%;
+    position: relative;
+  }
+
+  button {
+    position: absolute;
+    bottom: -70px;
+    right: 0px;
+  }
+}

@@ -1,0 +1,24 @@
+.jobs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 67%;
+  margin: auto;
+
+  h1 {
+    color: #eaeaea;
+    font-family: "Rubik";
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
