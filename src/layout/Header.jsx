@@ -4,16 +4,11 @@ import styles from "../styles/Header.module.scss"
 
 import logo from "../Images/logo.png"
 import account from "../Images/icon.png"
-<<<<<<< HEAD
-
-function Header() {
-=======
 import burger from "../Images/burger.png"
 import { useState } from "react"
 
 function Header() {
   const [showBurger, setShowBurger] = useState(false)
->>>>>>> 1edc3d0f42a8a0c898416245fbd61838c839e0f7
   return (
     <div className={styles.header}>
       <NavLink
@@ -66,8 +61,6 @@ function Header() {
           <img src={account}></img>
         </NavLink>
       </nav>
-<<<<<<< HEAD
-=======
       <button className={styles.burgerMenuButton} onClick={()=>setShowBurger(prev=>!prev)}>
         <img src={burger}></img>
       </button>
@@ -122,7 +115,6 @@ function Header() {
         </div>
         </>
     }
->>>>>>> 1edc3d0f42a8a0c898416245fbd61838c839e0f7
     </div>
   )
 }

@@ -1,42 +1,12 @@
-.btn {
-<<<<<<< HEAD
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  border-radius: 10px;
-  border: 2px solid rgba(255, 255, 255, 0.5);
-  background: none;
-  color: #fff;
-  font-family: "Rubik";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-  padding-right: 2%;
-  width: 100%;
-  margin-top: 3%;
-
-  img,
-  p {
-    margin-left: 5%;
-  }
-}
-
-.btn:hover {
-  border-radius: 10px;
-  border: 2px solid rgba(255, 255, 255, 0.5);
-  background: rgba(255, 170, 80, 0.5);
-}
-=======
+btn {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
     border-radius: 10px;
-    border: 2px solid rgba(255, 255, 255, 0.50);
+    border: 2px solid rgba(255, 255, 255, 0.5);
     background: none;
-    color: #FFF;
+    color: #fff;
     font-family: "Rubik";
     font-size: 24px;
     font-style: normal;
@@ -44,15 +14,16 @@
     line-height: normal;
     padding-right: 2%;
     width: 100%;
-
-    img, p {
-        margin-left: 5%;
+    margin-top: 3%;
+  
+    img,
+    p {
+      margin-left: 5%;
     }
-}
-
-.btn:hover {
+  }
+  
+  .btn:hover {
     border-radius: 10px;
-    border: 2px solid rgba(255, 255, 255, 0.50);
-    background: rgba(255, 170, 80, 0.50);
-}
->>>>>>> 1edc3d0f42a8a0c898416245fbd61838c839e0f7
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 170, 80, 0.5);
+  }

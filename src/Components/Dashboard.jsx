@@ -10,7 +10,6 @@ import trolleybus from "../Images/dashboard/trolleybus_white 1.svg"
 import tram from "../Images/dashboard/material-symbols_tram.svg"
 import help from "../Images/dashboard/bx_support.svg"
 import exit from "../Images/dashboard/exit.svg"
-<<<<<<< HEAD
 import user from "../Images/dashboard/user_photo_small.svg"
 import person from "../Images/dashboard/user_photo_full.jpg"
 import line from "../Images/dashboard/line.png"
@@ -22,10 +21,6 @@ import { useState } from "react"
 function Dashboard() {
   const [activity, changeActivity] = useState(0)
 
-=======
-
-function Dashboard() {
->>>>>>> 1edc3d0f42a8a0c898416245fbd61838c839e0f7
   return (
     <div className={styles.dashboard}>
       <div className={styles.left}>
@@ -34,7 +29,6 @@ function Dashboard() {
         <img src={devider} />
         <p>Добро пожаловать, username123</p>
         <div className={styles.menu}>
-<<<<<<< HEAD
           <p>Главное</p>
           <DashboardBtn
             img={iconPerson}
@@ -160,22 +154,6 @@ function Dashboard() {
           </div>
         )}
       </div>
-=======
-            <p>Главное</p>
-            <DashboardBtn img={iconPerson} title="Профиль" />
-        </div>
-        <div className={styles.menu}>
-            <p>направления проекта</p>
-            <DashboardBtn img={metro} title="Метро" />
-            <DashboardBtn img={trolleybus} title="Троллейбусы" />
-            <DashboardBtn img={tram} title="Трамваи" />
-        </div>
-        <div className={styles.bottom}>
-            <DashboardBtn img={help} title="Поддержка" />
-            <DashboardBtn img={exit} title="Выйти" />
-        </div>
-      </div>
->>>>>>> 1edc3d0f42a8a0c898416245fbd61838c839e0f7
     </div>
   )
 }
