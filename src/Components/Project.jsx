@@ -75,19 +75,31 @@ function Project() {
       </div>
       <div className={styles.bottom}>
         <div className={styles.column}>
-          <img src={icon1} />
-          <h3>4</h3>
-          <p>сервера</p>
+          <div className={styles.image}>
+            <img src={icon1} />
+          </div>
+          <div className={styles.text}>
+            <h3>4</h3>
+            <p>сервера</p>
+          </div>
         </div>
         <div className={styles.column}>
+          <div className={styles.image}>
           <img src={icon2} />
-          <h3>1000</h3>
+            </div>
+            <div className={styles.text}>
+            <h3>1000</h3>
           <p>и более человек на проекте</p>
+            </div>
         </div>
         <div className={styles.column}>
-          <img src={icon3} />
-          <h3>∞</h3>
-          <p>желание развиваться</p>
+          <div className={styles.image}>
+            <img src={icon3} />
+          </div>
+          <div className={styles.text}>
+            <h3>∞</h3>
+            <p>желание развиваться</p>
+          </div>
         </div>
         <ScrollBtn />
       </div>
