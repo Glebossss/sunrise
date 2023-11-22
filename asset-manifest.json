@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sunrise/static/css/main.12543086.css",
-    "main.js": "/sunrise/static/js/main.fb112169.js",
+    "main.css": "/sunrise/static/css/main.a2f3928d.css",
+    "main.js": "/sunrise/static/js/main.6807cdcd.js",
     "static/media/Video.jpg": "/sunrise/static/media/Video.45f6092ad0a848521557.jpg",
     "static/media/steam icon.svg": "/sunrise/static/media/steam icon.906cbf40f6ab2cf21bb09aea0dd38305.svg",
     "static/media/banner.jpg": "/sunrise/static/media/banner.8e75db7d98c29a0b276c.jpg",
@@ -17,29 +17,41 @@
     "static/media/Rubik-Bold.ttf": "/sunrise/static/media/Rubik-Bold.c934eb22c2c69992b34c.ttf",
     "static/media/Rubik-SemiBold.ttf": "/sunrise/static/media/Rubik-SemiBold.869208702057daef053d.ttf",
     "static/media/Rubik-Regular.ttf": "/sunrise/static/media/Rubik-Regular.55fa11cdc8b9a3ee842f.ttf",
-    "static/media/pic2.jpg": "/sunrise/static/media/pic2.2d1e63888680d0eac7ab.jpg",
     "static/media/person6.jpg": "/sunrise/static/media/person6.ea1d44dafa7979c3795a.jpg",
-    "static/media/pic3.jpg": "/sunrise/static/media/pic3.7d1bb9a021395b43dce0.jpg",
     "static/media/person3.jpg": "/sunrise/static/media/person3.3cc078d0a619ceef34c9.jpg",
+    "static/media/pic2.jpg": "/sunrise/static/media/pic2.b9e71f1ad7724dfe15c1.jpg",
+    "static/media/logo.svg": "/sunrise/static/media/logo.ed274fc6b71943d52f112b94a16b4da7.svg",
     "static/media/person5.jpg": "/sunrise/static/media/person5.5918dc2e86f79a417694.jpg",
     "static/media/person4.jpg": "/sunrise/static/media/person4.2a41ede172fd501785bd.jpg",
     "static/media/person2.jpg": "/sunrise/static/media/person2.4251b9a40396b84b1081.jpg",
+    "static/media/pic3.jpg": "/sunrise/static/media/pic3.9699174927a67a4bd366.jpg",
     "static/media/discord icon.svg": "/sunrise/static/media/discord icon.cf15214efc16ea61cc41ea0e901ce647.svg",
     "static/media/VK icon.svg": "/sunrise/static/media/VK icon.4cb6e371fd311ed7ef804ec6c28c80c1.svg",
     "static/media/yourube icon.svg": "/sunrise/static/media/yourube icon.afb7b605a34518c25f8f3898f8486d62.svg",
     "static/media/train 1.svg": "/sunrise/static/media/train 1.65b5f43b23dd6fdf0e8474d831cfa5cd.svg",
     "static/media/Tram.svg": "/sunrise/static/media/Tram.2733b93c53c6d743fabc42bca5eb9be1.svg",
+    "static/media/trolleybus_white 1.svg": "/sunrise/static/media/trolleybus_white 1.3255e070a408c4054b3f7764d124fad3.svg",
     "static/media/trolleybus 1.svg": "/sunrise/static/media/trolleybus 1.c61cb2e6567dd9426e8dc8a9c7b26a9e.svg",
+    "static/media/slick.svg": "/sunrise/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/sunrise/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/sunrise/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/steam.svg": "/sunrise/static/media/steam.d87b94ae935f107940911c86da6487c2.svg",
+    "static/media/icon-metro.svg": "/sunrise/static/media/icon-metro.d04126c18724a788be9c83043c67f414.svg",
+    "static/media/slick.woff": "/sunrise/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/material-symbols_tram.svg": "/sunrise/static/media/material-symbols_tram.6522e1fdfa66bc6893164e8dbcb19f38.svg",
+    "static/media/icon-person.svg": "/sunrise/static/media/icon-person.b320bfed0d98dea0b219d00eff0ae73a.svg",
+    "static/media/bx_support.svg": "/sunrise/static/media/bx_support.614c3385902cce432ad1af73c1d757db.svg",
     "index.html": "/sunrise/index.html",
+    "static/media/exit.svg": "/sunrise/static/media/exit.2e78f593236d2025c3ab2dee5a8935bd.svg",
     "static/media/Arrow.svg": "/sunrise/static/media/Arrow.d5dcb85fa3955fc76c9fc0995c3ac073.svg",
     "static/media/arrow.svg": "/sunrise/static/media/arrow.9d8c10fc89af85fd8c4b6c0945b02b61.svg",
     "static/media/close.svg": "/sunrise/static/media/close.b4349b7cfabf07dc125a1d6f167e8274.svg",
-    "main.12543086.css.map": "/sunrise/static/css/main.12543086.css.map",
-    "main.fb112169.js.map": "/sunrise/static/js/main.fb112169.js.map"
+    "static/media/devider.svg": "/sunrise/static/media/devider.b9aa5bd8e898d00e61ae31697407da82.svg",
+    "main.a2f3928d.css.map": "/sunrise/static/css/main.a2f3928d.css.map",
+    "main.6807cdcd.js.map": "/sunrise/static/js/main.6807cdcd.js.map"
   },
   "entrypoints": [
-    "static/css/main.12543086.css",
-    "static/js/main.fb112169.js"
+    "static/css/main.a2f3928d.css",
+    "static/js/main.6807cdcd.js"
   ]
 }
