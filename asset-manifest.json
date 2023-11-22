@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/sunrise/static/css/main.a49fb750.css",
-    "main.js": "/sunrise/static/js/main.c9d6b454.js",
+    "main.css": "/sunrise/static/css/main.3f69ed5b.css",
+    "main.js": "/sunrise/static/js/main.f0bc70ab.js",
     "static/media/Video.jpg": "/sunrise/static/media/Video.45f6092ad0a848521557.jpg",
     "static/media/steam icon.svg": "/sunrise/static/media/steam icon.5436c35cb5e90996e0eb07560e9e4be1.svg",
     "static/media/banner.jpg": "/sunrise/static/media/banner.8e75db7d98c29a0b276c.jpg",
     "static/media/Schedule.jpg": "/sunrise/static/media/Schedule.6e3f85b5fe124038cf53.jpg",
     "static/media/image 3.jpg": "/sunrise/static/media/image 3.4043e8e7c251581340bf.jpg",
     "static/media/pic1.jpg": "/sunrise/static/media/pic1.63d7b7635e96015bbe04.jpg",
-    "static/media/image.jpg": "/sunrise/static/media/image.175c7bf571b9d0b300e0.jpg",
+    "static/media/image.jpg": "/sunrise/static/media/image.7d6df970eb0e9c298b9c.jpg",
     "static/media/image 2.jpg": "/sunrise/static/media/image 2.0c410a7d808b4ec1a407.jpg",
     "static/media/telegram icon.svg": "/sunrise/static/media/telegram icon.624e86f99fbb52bc2833319e6ae5ed5a.svg",
     "static/media/image 1.jpg": "/sunrise/static/media/image 1.b347b015d9c36116c300.jpg",
@@ -22,7 +22,7 @@
     "static/media/person3.jpg": "/sunrise/static/media/person3.3cc078d0a619ceef34c9.jpg",
     "static/media/discord.svg": "/sunrise/static/media/discord.8ed5243db8d7ecec521532b195c8fd6e.svg",
     "static/media/pic2.jpg": "/sunrise/static/media/pic2.b9e71f1ad7724dfe15c1.jpg",
-    "static/media/logo.svg": "/sunrise/static/media/logo.f42bd03f8ece3000f36b6daadec95db7.svg",
+    "static/media/logo.svg": "/sunrise/static/media/logo.db339f01793821968184f8370ed1c3e2.svg",
     "static/media/person5.jpg": "/sunrise/static/media/person5.5918dc2e86f79a417694.jpg",
     "static/media/person4.jpg": "/sunrise/static/media/person4.2a41ede172fd501785bd.jpg",
     "static/media/person2.jpg": "/sunrise/static/media/person2.4251b9a40396b84b1081.jpg",
@@ -51,11 +51,11 @@
     "static/media/arrow.svg": "/sunrise/static/media/arrow.bde56a024840a0388d3983b4badf282d.svg",
     "static/media/close.svg": "/sunrise/static/media/close.7275a12d63470c37f32d540e9d26f733.svg",
     "static/media/devider.svg": "/sunrise/static/media/devider.83ad200569e82b8c603c8c047aa0d70a.svg",
-    "main.a49fb750.css.map": "/sunrise/static/css/main.a49fb750.css.map",
-    "main.c9d6b454.js.map": "/sunrise/static/js/main.c9d6b454.js.map"
+    "main.3f69ed5b.css.map": "/sunrise/static/css/main.3f69ed5b.css.map",
+    "main.f0bc70ab.js.map": "/sunrise/static/js/main.f0bc70ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.a49fb750.css",
-    "static/js/main.c9d6b454.js"
+    "static/css/main.3f69ed5b.css",
+    "static/js/main.f0bc70ab.js"
   ]
 }
