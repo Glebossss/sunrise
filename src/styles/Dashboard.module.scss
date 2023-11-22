@@ -1,4 +1,5 @@
 .dashboard {
+<<<<<<< HEAD
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -149,10 +150,20 @@
       margin-top: 2%;
 
       .info {
+=======
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+
+    .left {
+>>>>>>> 1edc3d0f42a8a0c898416245fbd61838c839e0f7
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+<<<<<<< HEAD
         width: 35%;
         border-radius: 20px;
         background: #282828;
@@ -172,11 +183,20 @@
 
           h4 {
             color: #fff;
+=======
+        width: 20%;
+        background: #8C798F;
+        padding: 3%;
+
+        h2 {
+            color: #FFF;
+>>>>>>> 1edc3d0f42a8a0c898416245fbd61838c839e0f7
             font-family: "Rubik";
             font-size: 30px;
             font-style: normal;
             font-weight: 500;
             line-height: normal;
+<<<<<<< HEAD
           }
 
           form {
@@ -424,3 +444,57 @@
     }
   }
 }
+=======
+            text-transform: uppercase;
+        }
+
+        p {
+            color: #FFF;
+            text-align: center;
+            font-family: "Rubik";
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+
+        .menu {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 100%;
+            margin-top: 5%;
+
+            p {
+                color: rgba(255, 255, 255, 0.60);
+                font-family: "Rubik";
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-transform: uppercase;
+            }
+            
+        }
+
+        .bottom {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 100%;
+            margin-top: 20%;
+
+            p {
+                color: rgba(255, 255, 255, 0.60);
+                font-family: "Rubik";
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+>>>>>>> 1edc3d0f42a8a0c898416245fbd61838c839e0f7

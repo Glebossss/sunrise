@@ -102,4 +102,44 @@
         right: 0;
         top: 30%;
     }
+<<<<<<< HEAD
+=======
+}
+@media(max-width: 1024px){
+    .events{
+        .schedule{
+            width: 100%;
+        }
+        .transport{
+            display: none;
+        }
+    }
+}
+@media(max-width: 768px){
+    .events{
+        h1{
+            font-size: 40px;
+        }
+        .tabs{
+            p{
+                font-size: 37px!important;
+            }
+        }
+    }
+}
+@media(max-width: 450px){
+    .events{
+        h1{
+            font-size: 17px;
+        }
+        .tabs{
+            p{
+                font-size: 13px!important;
+            }
+        }
+        .schedule{
+            width: 130%;
+        }
+    }
+>>>>>>> 1edc3d0f42a8a0c898416245fbd61838c839e0f7
 }

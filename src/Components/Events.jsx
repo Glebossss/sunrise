@@ -58,7 +58,11 @@ function Events() {
       })}
     </div>
     <h1>Расписание</h1>
+<<<<<<< HEAD
     <img src={schedule} />
+=======
+    <img src={schedule} className={styles.schedule}/>
+>>>>>>> 1edc3d0f42a8a0c898416245fbd61838c839e0f7
   </div>
   )
 }
