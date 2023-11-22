@@ -106,3 +106,17 @@
     right: 0px;
   }
 }
+
+@media(max-width: 1024px) {
+  .two {
+    width: 90%;
+    
+    h2 {
+    font-size: 48px !important;
+    }
+
+    p {
+      font-size: 23px;
+    }
+}
+}

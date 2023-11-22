@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sunrise/static/css/main.81e6f652.css",
-    "main.js": "/sunrise/static/js/main.60d7c1ee.js",
+    "main.css": "/sunrise/static/css/main.12543086.css",
+    "main.js": "/sunrise/static/js/main.fb112169.js",
     "static/media/Video.jpg": "/sunrise/static/media/Video.45f6092ad0a848521557.jpg",
     "static/media/steam icon.svg": "/sunrise/static/media/steam icon.906cbf40f6ab2cf21bb09aea0dd38305.svg",
     "static/media/banner.jpg": "/sunrise/static/media/banner.8e75db7d98c29a0b276c.jpg",
@@ -27,16 +27,19 @@
     "static/media/discord icon.svg": "/sunrise/static/media/discord icon.cf15214efc16ea61cc41ea0e901ce647.svg",
     "static/media/VK icon.svg": "/sunrise/static/media/VK icon.4cb6e371fd311ed7ef804ec6c28c80c1.svg",
     "static/media/yourube icon.svg": "/sunrise/static/media/yourube icon.afb7b605a34518c25f8f3898f8486d62.svg",
+    "static/media/train 1.svg": "/sunrise/static/media/train 1.65b5f43b23dd6fdf0e8474d831cfa5cd.svg",
+    "static/media/Tram.svg": "/sunrise/static/media/Tram.2733b93c53c6d743fabc42bca5eb9be1.svg",
+    "static/media/trolleybus 1.svg": "/sunrise/static/media/trolleybus 1.c61cb2e6567dd9426e8dc8a9c7b26a9e.svg",
     "static/media/steam.svg": "/sunrise/static/media/steam.d87b94ae935f107940911c86da6487c2.svg",
     "index.html": "/sunrise/index.html",
     "static/media/Arrow.svg": "/sunrise/static/media/Arrow.d5dcb85fa3955fc76c9fc0995c3ac073.svg",
     "static/media/arrow.svg": "/sunrise/static/media/arrow.9d8c10fc89af85fd8c4b6c0945b02b61.svg",
     "static/media/close.svg": "/sunrise/static/media/close.b4349b7cfabf07dc125a1d6f167e8274.svg",
-    "main.81e6f652.css.map": "/sunrise/static/css/main.81e6f652.css.map",
-    "main.60d7c1ee.js.map": "/sunrise/static/js/main.60d7c1ee.js.map"
+    "main.12543086.css.map": "/sunrise/static/css/main.12543086.css.map",
+    "main.fb112169.js.map": "/sunrise/static/js/main.fb112169.js.map"
   },
   "entrypoints": [
-    "static/css/main.81e6f652.css",
-    "static/js/main.60d7c1ee.js"
+    "static/css/main.12543086.css",
+    "static/js/main.fb112169.js"
   ]
 }

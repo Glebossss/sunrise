@@ -33,7 +33,9 @@ function Login() {
             </input>
           </div>
         </form>
-        <button>Войти</button>
+        <NavLink to="/sunrise/dashboard" className={styles.link}>
+          <button>Войти</button>
+        </NavLink>
         <button className={styles.steam}>
           <p>Войти через steam</p>
           <img src={steam} />

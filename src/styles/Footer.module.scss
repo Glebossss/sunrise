@@ -6,7 +6,6 @@
   width: 100%;
   margin-top: 7%;
   background: rgba(16, 16, 16, 0.7);
-  padding: 2%;
   position: relative;
 
   .wrapper {
@@ -77,6 +76,7 @@
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     -o-transform: rotate(90deg);
+    overflow: hidden;
   }
 
   .line3 {
@@ -84,5 +84,6 @@
     bottom: 0px;
     right: 0px;
     z-index: -10;
+    overflow: hidden;
   }
 }

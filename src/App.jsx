@@ -12,6 +12,7 @@ import Documents from "./Components/Documents"
 import Contacts from "./Components/Contacts"
 import Account from "./Components/Account"
 import Login from "./Components/Login"
+import Dashboard from "./Components/Dashboard"
 
 function App() {
   return (
@@ -58,6 +59,10 @@ function App() {
           <Route
               path='/sunrise/account'
               element={<Account />}
+            ></Route>
+          <Route
+              path='/sunrise/dashboard'
+              element={<Dashboard />}
             ></Route>
         </Routes>
       </div>

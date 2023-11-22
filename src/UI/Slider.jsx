@@ -1,43 +1,47 @@
-import React, { useRef, useState } from "react"
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react"
-
-// Import Swiper styles
-import "swiper/css"
-import "swiper/css/pagination"
-
+import React, { Component } from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import "../styles/Slider.scss"
 
-import pic1 from "../Images/pic1.jpg"
-import pic2 from "../Images/pic2.jpg"
-import pic3 from "../Images/pic3.jpg"
+import image1 from "../Images/pic1.jpg"
+import image2 from "../Images/pic2.jpg"
+import image3 from "../Images/pic3.jpg"
 
-// import required modules
-import { Pagination, Navigation } from "swiper/modules"
 
-export default function Slider() {
-  return (
-    <>
-      <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
-        modules={[Pagination, Navigation]}
-        className='mySwiper'
-      >
-        <SwiperSlide>
-          <img src={pic2} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={pic1} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={pic3} />
-        </SwiperSlide>
-      </Swiper>
-    </>
-  )
+export default class Slick extends Component {
+  render() {
+    const settings = {
+      dots: true,
+      className: "center",
+      centerMode: true,
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      centerPadding: "-25px",
+      speed: 500,
+    };
+    return (
+        <Slider {...settings}>
+          <div>
+            <img src={image1} />
+          </div>
+          <div>
+            <img src={image2} />
+          </div>
+          <div>
+            <img src={image3} />
+          </div>
+          <div>
+            <img src={image1} />
+          </div>
+          <div>
+            <img src={image2} />
+          </div>
+          <div>
+            <img src={image3} />
+          </div>
+        </Slider>
+    );
+  }
 }
