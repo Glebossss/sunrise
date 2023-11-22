@@ -58,7 +58,7 @@ function Events() {
       })}
     </div>
     <h1>Расписание</h1>
-    <img src={schedule} />
+    <img src={schedule} className={styles.schedule}/>
   </div>
   )
 }
