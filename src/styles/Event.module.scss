@@ -1,0 +1,93 @@
+.event {
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 10px;
+    background: rgba(214, 185, 252, 0.5);
+    padding: 5%;
+    margin-top: 5%;
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    
+        h5 {
+            color: #eaeaea;
+            font-family: "Rubik";
+            font-size: 29px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            margin: 0%;
+            }
+        
+        p {
+            color: #eaeaea;
+            font-family: "Rubik";
+            font-size: 29px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            }
+        
+            .extra {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+            }
+        
+        .extra p, .extra span {
+            color: rgba(234, 234, 234, 0.8);
+            font-family: "Rubik";
+            font-size: 29px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            margin: 0%;
+        }
+
+        .extra span:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        
+        .extra img {
+            margin: 0%;
+            padding-left: 2%;
+        }
+        
+        .description {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start !important;
+        }
+        
+        .description p {
+            margin-top: 5%;
+            color: #eaeaea;
+            font-family: "Rubik";
+            font-size: 29px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+
+        .description img {
+            margin: auto;
+            padding-top: 3%;
+        }
+
+        .info {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 15%;
+            margin-top: 3%;
+        }
+    }
+}

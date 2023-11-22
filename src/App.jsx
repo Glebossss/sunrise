@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
-import "./App.css"
+import "./App.scss"
 
 import MainLayout from "./layout/MainLayout"
 import Home from "./Components/Home"
@@ -11,6 +11,8 @@ import Events from "./Components/Events"
 import Documents from "./Components/Documents"
 import Contacts from "./Components/Contacts"
 import Account from "./Components/Account"
+import Login from "./Components/Login"
+import Dashboard from "./Components/Dashboard"
 
 function App() {
   return (
@@ -18,7 +20,7 @@ function App() {
       <div className='App'>
         <Routes>
           <Route
-            path='/'
+            path='/sunrise/'
             element={<MainLayout />}
           >
             <Route
@@ -49,11 +51,19 @@ function App() {
               path='contacts'
               element={<Contacts />}
             ></Route>
-            <Route
-              path='account'
+          </Route>
+          <Route
+              path='/sunrise/login'
+              element={<Login />}
+            ></Route>
+          <Route
+              path='/sunrise/account'
               element={<Account />}
             ></Route>
-          </Route>
+          <Route
+              path='/sunrise/dashboard'
+              element={<Dashboard />}
+            ></Route>
         </Routes>
       </div>
     </BrowserRouter>

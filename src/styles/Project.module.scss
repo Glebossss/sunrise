@@ -1,0 +1,124 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 67%;
+
+    h1 {
+      color: #eaeaea;
+      font-family: "Rubik";
+      font-size: 58px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+
+    p {
+      color: #fff;
+      font-family: "Rubik";
+      font-size: 29px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+    }
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 67%;
+
+    .block {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+      width: 100%;
+      margin-top: 134px;
+
+      h3 {
+        color: #eaeaea;
+        font-family: "Rubik";
+        font-size: 58px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin: 0%;
+      }
+
+      p {
+        color: #fff;
+        font-family: "Rubik";
+        font-size: 29px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        width: 425px;
+      }
+    }
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 67%;
+    margin: auto;
+    padding-top: 3%;
+    position: relative;
+
+    .column {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .column h3 {
+      color: #eaeaea;
+      font-family: "Rubik";
+      font-size: 64px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin-bottom: 0%;
+    }
+
+    .column p {
+      color: #eaeaea;
+      font-family: "Rubik";
+      font-size: 29px;
+      font-weight: 300;
+      line-height: normal;
+    }
+  }
+
+  .line {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -10;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+  }
+
+  button {
+    position: absolute;
+    bottom: -70px;
+    right: 0px;
+  }
+}

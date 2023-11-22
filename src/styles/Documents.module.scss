@@ -1,0 +1,168 @@
+.documents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width:67%;
+    margin: auto;
+
+    .line {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: -10;
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+    }
+
+    h1 {
+        color: #EAEAEA;
+        font-family: "Rubik";
+        font-size: 58px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .tabs {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+
+        .inActive {
+            color: #EAEAEA;
+            text-align: center;
+            font-family: "Rubik";
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            cursor: pointer;
+            padding: 1% 2% 1% 2%;
+        }
+
+        .active {
+            color: #EAEAEA;
+            text-align: center;
+            font-family: "Rubik";
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            cursor: pointer;
+            border-radius: 10px;
+            background: rgba(255, 170, 80, 0.50);
+            padding: 1% 2% 1% 2%;
+        }
+
+        .active2 {
+            color: #EAEAEA;
+            text-align: center;
+            font-family: "Rubik";
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            cursor: pointer;
+            border-radius: 10px;
+            background: rgba(214, 185, 252, 0.50);
+            padding: 1% 2% 1% 2%;
+        }
+    }
+
+    .main {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+
+            button {
+                color: #FFF;
+                text-align: center;
+                font-family: "Rubik";
+                font-size: 29px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                border-radius: 10px;
+                background: rgba(255, 170, 80, 0.50);
+                width: 327px;
+                height: 115px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+}
+
+            p{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                color: #FFF;
+                text-align: center;
+                font-family: "Rubik";
+                font-size: 29px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: normal;
+                border-radius: 10px;
+                background: rgba(255, 170, 80, 0.50) !important;
+                width: 327px;
+                height: 86px;
+                padding: 0%;
+            }
+        }
+
+        .column2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+
+            button {
+                color: #FFF;
+                text-align: center;
+                font-family: "Rubik";
+                font-size: 29px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                border-radius: 10px;
+                background: rgba(214, 185, 252, 0.50);
+                width: 327px;
+                height: 115px;
+            }
+
+            p {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                color: #FFF;
+                text-align: center;
+                font-family: "Rubik";
+                font-size: 29px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: normal;
+                border-radius: 10px;
+                background: rgba(214, 185, 252, 0.50);
+                width: 327px;
+                height: 86px;
+            }
+        }
+    }
+}

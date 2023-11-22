@@ -1,0 +1,89 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 7%;
+  background: rgba(16, 16, 16, 0.7);
+  position: relative;
+
+  .wrapper {
+    width: 67%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 50%;
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .left p {
+    color: #eaeaea;
+    font-family: "Rubik";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+  }
+
+  .right a {
+    color: #eaeaea;
+    font-family: "Rubik";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    margin-top: 2%;
+  }
+
+  .right a:hover {
+    opacity: 0.5;
+  }
+
+  .line2 {
+    position: absolute;
+    bottom: 7px;
+    left: 0px;
+    z-index: -10;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    overflow: hidden;
+  }
+
+  .line3 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: -10;
+    overflow: hidden;
+  }
+}

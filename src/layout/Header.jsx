@@ -1,59 +1,59 @@
 import { NavLink } from "react-router-dom"
 
-import "../styles/Header.css"
+import styles from "../styles/Header.module.scss"
 
 import logo from "../Images/logo.png"
 import account from "../Images/icon.png"
 
 function Header() {
   return (
-    <div className='header'>
+    <div className={styles.header}>
       <NavLink
         className=''
         to='.'
       >
         <img src={logo}></img>
       </NavLink>
-      <nav className='nav'>
+      <nav className={styles.nav}>
         <NavLink
-          className='link'
+          className={styles.link}
           to='project'
         >
           О проекте
         </NavLink>
         <NavLink
-          className='link'
+          className={styles.link}
           to='team'
         >
           Руководство
         </NavLink>
         <NavLink
-          className='link'
+          className={styles.link}
           to='jobs'
         >
           Работа у нас
         </NavLink>
         <NavLink
-          className='link'
+          className={styles.link}
           to='events'
         >
           Мероприятия
         </NavLink>
         <NavLink
-          className='link'
+          className={styles.link}
           to='documents'
         >
           Документы
         </NavLink>
         <NavLink
-          className='link'
+          className={styles.link}
           to='contacts'
         >
           Контакты
         </NavLink>
         <NavLink
-          className='icon'
-          to='account'
+          className={styles.icon}
+          to='login'
         >
           <img src={account}></img>
         </NavLink>
