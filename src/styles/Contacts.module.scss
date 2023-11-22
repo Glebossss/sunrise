@@ -84,44 +84,44 @@
     }
   }
 }
-@media(max-width:1024px){
-  .contacts{
-    .socials{
+@media (max-width: 1024px) {
+  .contacts {
+    .socials {
       flex-wrap: wrap;
       justify-content: center;
-      p{
+      p {
         margin: 0 20px;
       }
     }
   }
 }
-@media(max-width:768px){
-  .contacts{
+@media (max-width: 768px) {
+  .contacts {
     width: 90%;
-    h1{
+    h1 {
       font-size: 40px;
     }
-    p{
+    p {
       font-size: 21px;
     }
-    .socials{
-      p{
-        font-size: 40px!important;
+    .socials {
+      p {
+        font-size: 40px !important;
       }
     }
   }
 }
-@media(max-width:450px){
-  .contacts{
-    h1{
+@media (max-width: 450px) {
+  .contacts {
+    h1 {
       font-size: 15px;
     }
-    p{
+    p {
       font-size: 11px;
     }
-    .socials{
-      p{
-        font-size: 15px!important;
+    .socials {
+      p {
+        font-size: 15px !important;
       }
 
       .vk {

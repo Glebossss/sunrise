@@ -120,3 +120,24 @@
     }
   }
 }
+
+@media (max-width: 450px) {
+  .event {
+    .left {
+      h5 {
+        font-size: 13px;
+      }
+      p {
+        font-size: 11px;
+      }
+      .extra {
+        span {
+          font-size: 11px;
+        }
+        img {
+          width: 15px;
+        }
+      }
+    }
+  }
+}
