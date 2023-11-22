@@ -166,3 +166,122 @@
         }
     }
 }
+@media(max-width: 1024px){
+    .documents{
+        width: 90%;
+        h1{
+            font-size: 48px;
+        }
+        .tabs{
+            p{
+                font-size: 42px!important;
+            }
+        }
+        .main{
+            .column{
+                button{
+                    font-size: 28px;
+                    width: 255px;
+                    height: 115px;
+                }
+                p{
+                    font-size: 28px;
+                    width: 255px;
+                    height: 115px;
+                }
+            }
+            .column2{
+                button{
+                    font-size: 28px;
+                    width: 255px;
+                    height: 115px;
+                }
+                p{
+                    font-size: 28px;
+                    width: 255px;
+                    height: 115px;
+                }
+            }
+        }
+    }
+}
+@media(max-width: 768px){
+    .documents{
+        .line{
+            width: 70%;
+        }
+        h1{
+            font-size: 40px;
+        }
+        .tabs{
+            p{
+                font-size: 37px!important;
+            }
+        }
+        .main{
+            .column{
+                button{
+                    font-size: 23px;
+                    width: 190px;
+                    height: 115px;
+                }
+                p{
+                    font-size: 21px;
+                    width: 190px;
+                    height: 83px;
+                }
+            }
+            .column2{
+                button{
+                    font-size: 23px;
+                    width: 190px;
+                    height: 115px;
+                }
+                p{
+                    font-size: 21px;
+                    width: 190px;
+                    height: 83px;
+                }
+            }
+        }
+    }
+}
+@media(max-width: 450px){
+    .documents{
+        h1{
+            font-size: 17px;
+        }
+        .tabs{
+            p{
+                font-size: 13px!important;
+            }
+        }
+        .main{
+            .column{
+                button{
+                    font-size: 11px;
+                    width: 93px;
+                    height: 47px;
+                }
+                p{
+                    font-size: 11px;
+                    width: 93px;
+                    height: 47px;
+                }
+            }
+            .column2{
+                button{
+                    font-size: 11px;
+                    width: 93px;
+                    height: 47px;
+                }
+                p{
+                    font-size: 11px;
+                    width: 93px;
+                    height: 47px;
+                }
+            }
+        }
+    }
+}
+

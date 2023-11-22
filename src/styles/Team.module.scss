@@ -36,10 +36,11 @@
     -o-transform: rotate(180deg);
   }
 }
-<<<<<<< HEAD
-=======
 @media(max-width: 1024px){
   .team{
+    .line{
+      width: 70%;
+  }
     h1{
       font-size: 23px;
     }
@@ -49,4 +50,3 @@
     }
   } 
 }
->>>>>>> 1edc3d0f42a8a0c898416245fbd61838c839e0f7

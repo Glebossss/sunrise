@@ -35,14 +35,14 @@
     align-items: center;
   }
 }
-<<<<<<< HEAD
-=======
 @media(max-width: 1024px){
   .jobs{
+    .line{
+      width: 70%;
+    }
     width: 80%;
     h1{
       font-size: 23px;
     }
   }
 }
->>>>>>> 1edc3d0f42a8a0c898416245fbd61838c839e0f7
