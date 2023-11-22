@@ -523,3 +523,22 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .right {
+    .main {
+      flex-direction: column !important;
+      align-items: center !important;
+      width: 100% !important;
+
+      .info,
+      .second {
+        width: 100% !important;
+
+        img {
+          width: 40% !important;
+        }
+      }
+    }
+  }
+}

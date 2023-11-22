@@ -32,32 +32,32 @@
   .icon img {
     margin-bottom: 0%;
   }
-  .burgerMenuButton{
+  .burgerMenuButton {
     background-color: rgba(0, 0, 0, 0);
     border: none;
     cursor: pointer;
     display: none;
     margin-right: 45px;
   }
-  .burgerMenuWrapper{
+  .burgerMenuWrapper {
     display: none;
   }
-  .burgerMenu{
+  .burgerMenu {
     display: none;
   }
 }
-@media(max-width:1024px) {
-  .header{
+@media (max-width: 1024px) {
+  .header {
     justify-content: space-between;
-    .nav{
+    .nav {
       display: none;
     }
-    .burgerMenuButton{
+    .burgerMenuButton {
       display: block;
       position: relative;
       z-index: 100;
     }
-    .burgerMenuWrapper{
+    .burgerMenuWrapper {
       top: 0;
       left: 0;
       position: fixed;
@@ -68,7 +68,7 @@
       z-index: 50;
       overflow: hidden;
     }
-    .burgerMenu{
+    .burgerMenu {
       position: absolute;
       z-index: 100;
       right: 130px !important;
@@ -78,26 +78,26 @@
       padding: 50px 70px;
       border: 5px solid #fff;
       background-color: rgba(16, 16, 16, 1);
-      nav{
+      nav {
         display: flex;
         flex-direction: column;
         align-items: center;
-        .link{
+        .link {
           margin: 12px 0;
         }
       }
     }
   }
 }
-@media(max-width:450px) {
-  .header{
-    img{
-      width:50%;
+@media (max-width: 450px) {
+  .header {
+    img {
+      width: 50%;
     }
-    .burgerMenuButton{
+    .burgerMenuButton {
       margin-right: 10px;
     }
-    .burgerMenu{
+    .burgerMenu {
       right: 10px !important;
       padding: 20px 30px;
     }

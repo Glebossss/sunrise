@@ -49,10 +49,54 @@
     .main {
       display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items: flex-start;
       justify-content: space-between;
       width: 100%;
       margin-top: 15%;
+
+      h5 {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: "Rubik";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+        margin: 0%;
+      }
+
+      h3 {
+        color: #fff;
+        font-family: "Rubik";
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+
+      p {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: "Rubik";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0%;
+      }
+
+      a {
+        color: #d6b9fc;
+        font-family: "Rubik";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-decoration: none;
+      }
+
+      .link {
+        width: 100%;
+      }
 
       form {
         width: 100%;
@@ -174,6 +218,179 @@
 
         img {
           margin-left: 3%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .right {
+    width: 40% !important;
+  }
+  .left {
+    width: 50% !important;
+    padding-right: 5%;
+    padding-left: 5% !important;
+
+    .top {
+      width: 100%;
+    }
+
+    h5 {
+      font-size: 20px !important;
+    }
+
+    h3 {
+      font-size: 35px !important;
+    }
+
+    .main {
+      align-items: center;
+
+      .block {
+        label {
+          font-size: 12px !important;
+        }
+
+        input {
+          font-size: 20px;
+        }
+
+        input::-webkit-input-placeholder {
+          font-size: 20px !important;
+        }
+      }
+
+      button {
+        margin-top: 5% !important;
+      }
+
+      .name {
+        flex-direction: column !important;
+        .block {
+          width: 96%;
+          padding: 2% !important;
+        }
+      }
+
+      .check {
+        width: 100% !important;
+      }
+
+      .check label,
+      .check span {
+        font-size: 20px !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .login {
+    flex-direction: column-reverse;
+    align-items: center;
+
+    .lines {
+      display: none;
+    }
+
+    .right {
+      display: none;
+    }
+
+    .adaptive {
+      width: 100vw;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .left {
+      width: 70% !important;
+    }
+
+    .top {
+      padding: 3% 0;
+    }
+
+    .main {
+      align-items: center !important;
+      text-align: center;
+      width: 100%;
+
+      p {
+        width: 100%;
+      }
+    }
+  }
+
+  .top a {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .top {
+    img {
+      width: 20%;
+    }
+  }
+
+  .login {
+    .left {
+      width: 90% !important;
+
+      .main {
+        h5 {
+          font-size: 15px !important;
+          width: 70%;
+        }
+
+        h3 {
+          font-size: 25px !important;
+        }
+
+        p {
+          font-size: 15px;
+        }
+
+        a {
+          font-size: 15px;
+        }
+
+        .block {
+          label {
+            font-size: 10px !important;
+          }
+
+          input {
+            font-size: 15px !important;
+          }
+
+          input::-webkit-input-placeholder {
+            font-size: 15px !important;
+          }
+        }
+
+        button {
+          font-size: 15px !important;
+          padding: 3%;
+        }
+
+        .steam {
+          p {
+            font-size: 15px !important;
+          }
+
+          img {
+            width: 10%;
+          }
+        }
+        .check label,
+        .check span {
+          font-size: 10px !important;
         }
       }
     }

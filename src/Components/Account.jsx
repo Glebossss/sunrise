@@ -1,6 +1,6 @@
 import styles from "../styles/Account.module.scss"
 
-import logo from "../Images/logo.png"
+import logo from "../Images/login/logo.svg"
 import image from "../Images/account/image.jpg"
 import steam from "../Images/account/steam.svg"
 import lines from "../Images/bgLines.png"
@@ -21,6 +21,11 @@ function Account() {
           <NavLink to='/sunrise/contacts'>Контакты</NavLink>
         </div>
         <div className={styles.main}>
+          <h5>Попробуйте бесплатно</h5>
+          <h3>Создайте новый аккаунт</h3>
+          <p>
+            Уже зарегистрированы <NavLink to='/sunrise/login'>Войти</NavLink>
+          </p>
           <form>
             <div className={styles.name}>
               <div className={styles.block}>
@@ -83,7 +88,9 @@ function Account() {
           </button>
         </div>
       </div>
-      <img src={image} />
+      <div className={styles.right}>
+        <img src={image} />
+      </div>
     </div>
   )
 }
