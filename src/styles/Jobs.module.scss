@@ -35,3 +35,11 @@
     align-items: center;
   }
 }
+@media(max-width: 1024px){
+  .jobs{
+    width: 80%;
+    h1{
+      font-size: 23px;
+    }
+  }
+}

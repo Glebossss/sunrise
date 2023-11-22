@@ -36,3 +36,14 @@
     -o-transform: rotate(180deg);
   }
 }
+@media(max-width: 1024px){
+  .team{
+    h1{
+      font-size: 23px;
+    }
+    .main{
+      justify-content: center;
+      width: 90%;
+    }
+  } 
+}

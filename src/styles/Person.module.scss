@@ -28,3 +28,16 @@
     line-height: normal;
   }
 }
+@media(max-width:450px){
+  .person{
+    img{
+      width: 290px;
+    }
+    h5{
+      font-size: 15px;
+    }
+    p{
+      font-size: 11px;
+    }
+  }
+}
