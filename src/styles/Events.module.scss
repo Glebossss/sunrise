@@ -115,6 +115,9 @@
 }
 @media(max-width: 768px){
     .events{
+        .line{
+            width: 70%;
+        }
         h1{
             font-size: 40px;
         }
@@ -127,6 +130,7 @@
 }
 @media(max-width: 450px){
     .events{
+        width: 80%;
         h1{
             font-size: 17px;
         }
