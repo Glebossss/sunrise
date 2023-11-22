@@ -33,7 +33,7 @@ function Dashboard() {
           <DashboardBtn
             img={iconPerson}
             title='Профиль'
-            // onClick={changeActivity(0)}
+            onClick={() => changeActivity(0)}
           />
         </div>
         <div className={styles.menu}>
@@ -41,7 +41,7 @@ function Dashboard() {
           <DashboardBtn
             img={metro}
             title='Метро'
-            // onClick={changeActivity(1)}
+            onClick={() => changeActivity(1)}
           />
           <DashboardBtn
             img={trolleybus}
@@ -146,6 +146,11 @@ function Dashboard() {
                 </div>
               </div>
             </div>
+          </div>
+        )}
+        {activity === 1 && (
+          <div className={styles.main}>
+            <h3>Календарь мероприятий</h3>
           </div>
         )}
       </div>
