@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+.slick-slider{
+  width:100%;
+  max-width: 1440px;
+=======
 .slider_wrapper{
   width:100%;
   display: flex;
@@ -7,6 +12,7 @@
   width:100%;
   max-width: 1440px;
   overflow: hidden;
+>>>>>>> 1edc3d0f42a8a0c898416245fbd61838c839e0f7
   img{
     width:420px;
     height: 375px;
@@ -33,6 +39,9 @@
 .slick-dots{
   z-index: 30;
   top: 300px;
+<<<<<<< HEAD
+  //background-color: red;
+=======
 }
 .slick-dots li button:before{
   color:rgba(234, 234, 234, 0.5);
@@ -106,4 +115,5 @@
     top: 100px;
     margin-left: 20px;
   }
+>>>>>>> 1edc3d0f42a8a0c898416245fbd61838c839e0f7
 }

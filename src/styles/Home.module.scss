@@ -11,7 +11,11 @@
     background-position: right;
     width: 100%;
     height: 766px;
+<<<<<<< HEAD
+    margin-top: -10%;
+=======
     margin-top: -150px;
+>>>>>>> 1edc3d0f42a8a0c898416245fbd61838c839e0f7
     z-index: -10;
   }
 
@@ -98,7 +102,10 @@
     margin: auto;
     padding-top: 3%;
     position: relative;
+<<<<<<< HEAD
+=======
     margin-bottom: 100px;
+>>>>>>> 1edc3d0f42a8a0c898416245fbd61838c839e0f7
   }
 
   button {
@@ -109,6 +116,20 @@
 }
 
 @media(max-width: 1024px) {
+<<<<<<< HEAD
+  .two {
+    width: 90%;
+    
+    h2 {
+    font-size: 48px !important;
+    }
+
+    p {
+      font-size: 23px;
+    }
+}
+}
+=======
   .home{
     .two {
       width: 90%;
@@ -195,3 +216,4 @@
     }
   }
 }
+>>>>>>> 1edc3d0f42a8a0c898416245fbd61838c839e0f7
