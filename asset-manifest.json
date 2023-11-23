@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sunrise/static/css/main.fc357280.css",
-    "main.js": "/sunrise/static/js/main.828bd47f.js",
+    "main.css": "/sunrise/static/css/main.0233cdbb.css",
+    "main.js": "/sunrise/static/js/main.0604b521.js",
     "static/media/Video.jpg": "/sunrise/static/media/Video.45f6092ad0a848521557.jpg",
     "static/media/steam icon.svg": "/sunrise/static/media/steam icon.5436c35cb5e90996e0eb07560e9e4be1.svg",
     "static/media/banner.jpg": "/sunrise/static/media/banner.8e75db7d98c29a0b276c.jpg",
@@ -51,11 +51,11 @@
     "static/media/arrow.svg": "/sunrise/static/media/arrow.bde56a024840a0388d3983b4badf282d.svg",
     "static/media/close.svg": "/sunrise/static/media/close.7275a12d63470c37f32d540e9d26f733.svg",
     "static/media/devider.svg": "/sunrise/static/media/devider.83ad200569e82b8c603c8c047aa0d70a.svg",
-    "main.fc357280.css.map": "/sunrise/static/css/main.fc357280.css.map",
-    "main.828bd47f.js.map": "/sunrise/static/js/main.828bd47f.js.map"
+    "main.0233cdbb.css.map": "/sunrise/static/css/main.0233cdbb.css.map",
+    "main.0604b521.js.map": "/sunrise/static/js/main.0604b521.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc357280.css",
-    "static/js/main.828bd47f.js"
+    "static/css/main.0233cdbb.css",
+    "static/js/main.0604b521.js"
   ]
 }
