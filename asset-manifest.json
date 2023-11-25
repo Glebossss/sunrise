@@ -1,10 +1,8 @@
 {
   "files": {
-    "main.css": "/sunrise/static/css/main.3ee2db1e.css",
-    "main.js": "/sunrise/static/js/main.b2922201.js",
-    "static/media/Video.jpg": "/sunrise/static/media/Video.de7629bd616c46042dbd.jpg",
+    "main.css": "/sunrise/static/css/main.cde87c90.css",
+    "main.js": "/sunrise/static/js/main.1fa88ca9.js",
     "static/media/steam icon.svg": "/sunrise/static/media/steam icon.5436c35cb5e90996e0eb07560e9e4be1.svg",
-    "static/media/banner.jpg": "/sunrise/static/media/banner.8e75db7d98c29a0b276c.jpg",
     "static/media/Schedule.jpg": "/sunrise/static/media/Schedule.6e3f85b5fe124038cf53.jpg",
     "static/media/image 3.jpg": "/sunrise/static/media/image 3.4043e8e7c251581340bf.jpg",
     "static/media/pic1.jpg": "/sunrise/static/media/pic1.63d7b7635e96015bbe04.jpg",
@@ -28,6 +26,8 @@
     "static/media/person5.jpg": "/sunrise/static/media/person5.b78883a828dad8b244b3.jpg",
     "static/media/user_photo_small.svg": "/sunrise/static/media/user_photo_small.88e28c10f5584b9a32295e7a8f07f77c.svg",
     "static/media/pic3.jpg": "/sunrise/static/media/pic3.9699174927a67a4bd366.jpg",
+    "static/media/Video.jpg": "/sunrise/static/media/Video.3c4d802bc6a5d4f2390f.jpg",
+    "static/media/banner.jpg": "/sunrise/static/media/banner.6886e1a2fc717865a248.jpg",
     "static/media/discord icon.svg": "/sunrise/static/media/discord icon.12af72d9771cff92317fee4a3a8f5935.svg",
     "static/media/VK icon.svg": "/sunrise/static/media/VK icon.61f783c290a26c05fb6d0fb8e589d65d.svg",
     "static/media/yourube icon.svg": "/sunrise/static/media/yourube icon.6465251957c9e6eb0f2487d5ef06c058.svg",
@@ -53,11 +53,11 @@
     "static/media/close.svg": "/sunrise/static/media/close.7275a12d63470c37f32d540e9d26f733.svg",
     "static/media/ticked.svg": "/sunrise/static/media/ticked.f2b7ca1331680ea6870f86689fd56043.svg",
     "static/media/devider.svg": "/sunrise/static/media/devider.83ad200569e82b8c603c8c047aa0d70a.svg",
-    "main.3ee2db1e.css.map": "/sunrise/static/css/main.3ee2db1e.css.map",
-    "main.b2922201.js.map": "/sunrise/static/js/main.b2922201.js.map"
+    "main.cde87c90.css.map": "/sunrise/static/css/main.cde87c90.css.map",
+    "main.1fa88ca9.js.map": "/sunrise/static/js/main.1fa88ca9.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ee2db1e.css",
-    "static/js/main.b2922201.js"
+    "static/css/main.cde87c90.css",
+    "static/js/main.1fa88ca9.js"
   ]
 }
