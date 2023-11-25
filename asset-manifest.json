@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sunrise/static/css/main.c93934c8.css",
-    "main.js": "/sunrise/static/js/main.1b08b842.js",
+    "main.css": "/sunrise/static/css/main.bbb8b5b4.css",
+    "main.js": "/sunrise/static/js/main.65872ebe.js",
     "static/media/Video.jpg": "/sunrise/static/media/Video.de7629bd616c46042dbd.jpg",
     "static/media/steam icon.svg": "/sunrise/static/media/steam icon.5436c35cb5e90996e0eb07560e9e4be1.svg",
     "static/media/banner.jpg": "/sunrise/static/media/banner.8e75db7d98c29a0b276c.jpg",
@@ -13,7 +13,7 @@
     "static/media/person1.jpg": "/sunrise/static/media/person1.975c205e62fe519cab8a.jpg",
     "static/media/telegram icon.svg": "/sunrise/static/media/telegram icon.624e86f99fbb52bc2833319e6ae5ed5a.svg",
     "static/media/image 1.jpg": "/sunrise/static/media/image 1.b347b015d9c36116c300.jpg",
-    "static/media/person6.jpg": "/sunrise/static/media/person6.6461e207bafb810b0cbd.jpg",
+    "static/media/person6.jpg": "/sunrise/static/media/person6.e92c69d7b25894edc507.jpg",
     "static/media/person3.jpg": "/sunrise/static/media/person3.bba4bde970ad229251d4.jpg",
     "static/media/Rubik.ttf": "/sunrise/static/media/Rubik.82de449cb37c7d97aa8a.ttf",
     "static/media/Rubik-Bold.ttf": "/sunrise/static/media/Rubik-Bold.c934eb22c2c69992b34c.ttf",
@@ -53,11 +53,11 @@
     "static/media/close.svg": "/sunrise/static/media/close.7275a12d63470c37f32d540e9d26f733.svg",
     "static/media/ticked.svg": "/sunrise/static/media/ticked.f2b7ca1331680ea6870f86689fd56043.svg",
     "static/media/devider.svg": "/sunrise/static/media/devider.83ad200569e82b8c603c8c047aa0d70a.svg",
-    "main.c93934c8.css.map": "/sunrise/static/css/main.c93934c8.css.map",
-    "main.1b08b842.js.map": "/sunrise/static/js/main.1b08b842.js.map"
+    "main.bbb8b5b4.css.map": "/sunrise/static/css/main.bbb8b5b4.css.map",
+    "main.65872ebe.js.map": "/sunrise/static/js/main.65872ebe.js.map"
   },
   "entrypoints": [
-    "static/css/main.c93934c8.css",
-    "static/js/main.1b08b842.js"
+    "static/css/main.bbb8b5b4.css",
+    "static/js/main.65872ebe.js"
   ]
 }
