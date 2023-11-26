@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sunrise/static/css/main.b6dc01a9.css",
-    "main.js": "/sunrise/static/js/main.22ff0958.js",
+    "main.css": "/sunrise/static/css/main.a9ca56c0.css",
+    "main.js": "/sunrise/static/js/main.b6d038d2.js",
     "static/media/steam icon.svg": "/sunrise/static/media/steam icon.5436c35cb5e90996e0eb07560e9e4be1.svg",
     "static/media/Schedule.jpg": "/sunrise/static/media/Schedule.6e3f85b5fe124038cf53.jpg",
     "static/media/image 3.jpg": "/sunrise/static/media/image 3.4043e8e7c251581340bf.jpg",
@@ -50,14 +50,15 @@
     "static/media/Arrow.svg": "/sunrise/static/media/Arrow.0b7e7643bbce243b96b75168677ddf30.svg",
     "static/media/Arrow 2.svg": "/sunrise/static/media/Arrow 2.3de7b15810c85a385d203dfb1a309214.svg",
     "static/media/arrow.svg": "/sunrise/static/media/arrow.bde56a024840a0388d3983b4badf282d.svg",
+    "static/media/burger.svg": "/sunrise/static/media/burger.fdffd9c8c16708024aa43836d6bc84af.svg",
     "static/media/close.svg": "/sunrise/static/media/close.7275a12d63470c37f32d540e9d26f733.svg",
     "static/media/ticked.svg": "/sunrise/static/media/ticked.f2b7ca1331680ea6870f86689fd56043.svg",
     "static/media/devider.svg": "/sunrise/static/media/devider.83ad200569e82b8c603c8c047aa0d70a.svg",
-    "main.b6dc01a9.css.map": "/sunrise/static/css/main.b6dc01a9.css.map",
-    "main.22ff0958.js.map": "/sunrise/static/js/main.22ff0958.js.map"
+    "main.a9ca56c0.css.map": "/sunrise/static/css/main.a9ca56c0.css.map",
+    "main.b6d038d2.js.map": "/sunrise/static/js/main.b6d038d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6dc01a9.css",
-    "static/js/main.22ff0958.js"
+    "static/css/main.a9ca56c0.css",
+    "static/js/main.b6d038d2.js"
   ]
 }
