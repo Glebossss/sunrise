@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sunrise/static/css/main.40b8fef1.css",
-    "main.js": "/sunrise/static/js/main.8c59308b.js",
+    "main.css": "/sunrise/static/css/main.2539888a.css",
+    "main.js": "/sunrise/static/js/main.5ed2b98b.js",
     "static/media/steam icon.svg": "/sunrise/static/media/steam icon.5436c35cb5e90996e0eb07560e9e4be1.svg",
     "static/media/Schedule.jpg": "/sunrise/static/media/Schedule.6e3f85b5fe124038cf53.jpg",
     "static/media/image 3.jpg": "/sunrise/static/media/image 3.4043e8e7c251581340bf.jpg",
@@ -54,11 +54,11 @@
     "static/media/close.svg": "/sunrise/static/media/close.7275a12d63470c37f32d540e9d26f733.svg",
     "static/media/ticked.svg": "/sunrise/static/media/ticked.f2b7ca1331680ea6870f86689fd56043.svg",
     "static/media/devider.svg": "/sunrise/static/media/devider.83ad200569e82b8c603c8c047aa0d70a.svg",
-    "main.40b8fef1.css.map": "/sunrise/static/css/main.40b8fef1.css.map",
-    "main.8c59308b.js.map": "/sunrise/static/js/main.8c59308b.js.map"
+    "main.2539888a.css.map": "/sunrise/static/css/main.2539888a.css.map",
+    "main.5ed2b98b.js.map": "/sunrise/static/js/main.5ed2b98b.js.map"
   },
   "entrypoints": [
-    "static/css/main.40b8fef1.css",
-    "static/js/main.8c59308b.js"
+    "static/css/main.2539888a.css",
+    "static/js/main.5ed2b98b.js"
   ]
 }
