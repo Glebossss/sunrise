@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sunrise/static/css/main.e90686c3.css",
+    "main.css": "/sunrise/static/css/main.e833a949.css",
     "main.js": "/sunrise/static/js/main.ff82dc4d.js",
     "static/media/steam icon.svg": "/sunrise/static/media/steam icon.5436c35cb5e90996e0eb07560e9e4be1.svg",
     "static/media/Schedule.jpg": "/sunrise/static/media/Schedule.6e3f85b5fe124038cf53.jpg",
@@ -54,11 +54,11 @@
     "static/media/close.svg": "/sunrise/static/media/close.7275a12d63470c37f32d540e9d26f733.svg",
     "static/media/ticked.svg": "/sunrise/static/media/ticked.f2b7ca1331680ea6870f86689fd56043.svg",
     "static/media/devider.svg": "/sunrise/static/media/devider.83ad200569e82b8c603c8c047aa0d70a.svg",
-    "main.e90686c3.css.map": "/sunrise/static/css/main.e90686c3.css.map",
+    "main.e833a949.css.map": "/sunrise/static/css/main.e833a949.css.map",
     "main.ff82dc4d.js.map": "/sunrise/static/js/main.ff82dc4d.js.map"
   },
   "entrypoints": [
-    "static/css/main.e90686c3.css",
+    "static/css/main.e833a949.css",
     "static/js/main.ff82dc4d.js"
   ]
 }
