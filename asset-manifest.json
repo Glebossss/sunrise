@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sunrise/static/css/main.7af52710.css",
-    "main.js": "/sunrise/static/js/main.3c8a61bd.js",
+    "main.css": "/sunrise/static/css/main.6cb66c87.css",
+    "main.js": "/sunrise/static/js/main.7ef8b863.js",
     "static/media/steam icon.svg": "/sunrise/static/media/steam icon.5436c35cb5e90996e0eb07560e9e4be1.svg",
     "static/media/Schedule.jpg": "/sunrise/static/media/Schedule.6e3f85b5fe124038cf53.jpg",
     "static/media/image 3.jpg": "/sunrise/static/media/image 3.4043e8e7c251581340bf.jpg",
@@ -31,15 +31,15 @@
     "static/media/discord icon.svg": "/sunrise/static/media/discord icon.12af72d9771cff92317fee4a3a8f5935.svg",
     "static/media/VK icon.svg": "/sunrise/static/media/VK icon.61f783c290a26c05fb6d0fb8e589d65d.svg",
     "static/media/yourube icon.svg": "/sunrise/static/media/yourube icon.6465251957c9e6eb0f2487d5ef06c058.svg",
-    "static/media/train 1.svg": "/sunrise/static/media/train 1.105b93fc2ce53380a6ee1492941175ec.svg",
-    "static/media/Tram.svg": "/sunrise/static/media/Tram.ba22feef9d3be4bd81adf1b71c193b66.svg",
+    "static/media/train 1.svg": "/sunrise/static/media/train 1.37e760f4fb98f6773dcb2b7f6bce9695.svg",
+    "static/media/Tram.svg": "/sunrise/static/media/Tram.a93bea695885872c1acc97c3bfce63ab.svg",
     "static/media/trolleybus_white 1.svg": "/sunrise/static/media/trolleybus_white 1.b9dfd06b7a877184e137c4d17eb7acc9.svg",
-    "static/media/trolleybus 1.svg": "/sunrise/static/media/trolleybus 1.dc39f0ef7960190a0d1c0641d5046819.svg",
+    "static/media/trolleybus 1.svg": "/sunrise/static/media/trolleybus 1.51fdce095f46828f0f501e324423ac59.svg",
     "static/media/bin.svg": "/sunrise/static/media/bin.f2f10dd44d20d88859c5742af7f1a88c.svg",
     "static/media/slick.svg": "/sunrise/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/sunrise/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/sunrise/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/steam.svg": "/sunrise/static/media/steam.6df106af3c0af9c2d98434b86f45603b.svg",
+    "static/media/steam.svg": "/sunrise/static/media/steam.fa0b836f8f7ae5b203d9a96a85a63254.svg",
     "static/media/icon-metro.svg": "/sunrise/static/media/icon-metro.b4a0aff29a03ec5a7c767edf114aeb2f.svg",
     "static/media/slick.woff": "/sunrise/static/media/slick.295183786cd8a1389865.woff",
     "static/media/material-symbols_tram.svg": "/sunrise/static/media/material-symbols_tram.a620262a91e55faa43a642fc38e1bc3e.svg",
@@ -54,11 +54,11 @@
     "static/media/close.svg": "/sunrise/static/media/close.7275a12d63470c37f32d540e9d26f733.svg",
     "static/media/ticked.svg": "/sunrise/static/media/ticked.f2b7ca1331680ea6870f86689fd56043.svg",
     "static/media/devider.svg": "/sunrise/static/media/devider.83ad200569e82b8c603c8c047aa0d70a.svg",
-    "main.7af52710.css.map": "/sunrise/static/css/main.7af52710.css.map",
-    "main.3c8a61bd.js.map": "/sunrise/static/js/main.3c8a61bd.js.map"
+    "main.6cb66c87.css.map": "/sunrise/static/css/main.6cb66c87.css.map",
+    "main.7ef8b863.js.map": "/sunrise/static/js/main.7ef8b863.js.map"
   },
   "entrypoints": [
-    "static/css/main.7af52710.css",
-    "static/js/main.3c8a61bd.js"
+    "static/css/main.6cb66c87.css",
+    "static/js/main.7ef8b863.js"
   ]
 }
